@@ -9,7 +9,7 @@ const useGetConversations = () => {
 		const getConversations = async () => {
 			setLoading(true);
 			try {
-				const res = await fetch("http://localhost:5000/api/users",
+				const res = await fetch("https://detchan.onrender.com/api/users",
 				{
 				  method: "GET",
 				  credentials: "include", // Include cookies in the request
